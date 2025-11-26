@@ -1,0 +1,100 @@
+# ==============================================
+# .gitignore for Python + Rust projects
+# ==============================================
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Packaging / distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checker / static analysis
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables / secrets
+*.env
+.env.*
+.envrc
+
+# ----------------------
+# Rust
+# ----------------------
+# Cargo build artifacts
+target/
+
+# Cargo lock file (optional)
+# Keep Cargo.lock if you have apps; ignore if libraries
+Cargo.lock
+
+# ----------------------
+# Common OS / Editors
+# ----------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+
+# ----------------------
+# Misc
+# ----------------------
+*.bak
+*.tmp
+*.old
